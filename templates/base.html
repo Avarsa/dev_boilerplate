@@ -5,9 +5,12 @@
 	<title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-	<h1>Software Features and User Stories</h1>
+	<div class="ui container">
+ 
 	
-	{% block content %} {% endblock %}
+		{% block content %} {% endblock %}
+		
+	</div>
 	
 	{% include 'scripts.component.html' %}
 </body>
